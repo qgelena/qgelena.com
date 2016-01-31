@@ -2,48 +2,79 @@
 <html>
 <head>
 <meta name='keywords' content='biology, Python, bioinfirmatics, testing, QA' charset='utf-8'/>
-
 <meta name='description' content="">
 <meta name='author' content="Alona Sychevska">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>qgelena</title>
 <link rel='stylesheet' href='/static/style.css'/>
+<style>
+.without_bullets {
+	list-style-type:none;
+}
+/*http://stackoverflow.com/questions/18482505/having-the-floating-children-elements-determine-parent-width*/ 
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+</style>
 </head>
-<body>
-<div style="width:1000px; margin: 0 auto;">
-	<img src='/static/crazyscientist.jpg'/>
+<body style="width:1000px; margin: 0 auto;">
+<div>
+	<img src='/static/crazyscientist.jpg' align="right"/>
 </div>
-<div style='background:#ddd; width:1000px; margin: 0 auto; "heigt='150px';'>
+<div style='background:#eee; height:40px;'>
 	<h1>Welcome to qgelena.com!</h1>
 </div>
 <hr>
-<div style="width:1000px; margin: 0 auto;">
+<div>
 	<form>
 		<input type='text' name='search' placeholder='search' ><br>
 		<input type='submit' name="submit" value="send">
 	</form>
 </div>
-<div style="width:1000px; margin: 0 auto;">	
+<div>	
 	<form action="/python/index.htm" method="get"><br>
 		<label for='nick'>Your nickname</label><input type='text' name='nick' id='nick' placeholder='your nickname'><br>
 		<label for='password'>Your password</label><input type='password' id='password' name='password'><br>
 		<input type="checkbox" name='remember' value="3">save<br>
 		Sex<input type="radio" value="male" name="sex">male|<input type="radio" value="female" name='sex'>female<br>
-		<textarea name='comment' cols='70' rows="10" placeholder='message'></textarea><br>
+		<textarea name='comment' cols='40' rows="10" placeholder='message'></textarea><br>
 		<input type='submit' name="submit" value="send">
 	</form>
 </div>
-<div style="width:1000px; margin: 0 auto;">
-	<ul>
+<div style='clear:both'>
+	<div style='float:left; margin-right:20px; border:3px dashed black; padding-right:10px; background:#cfc'>
+	<ul class="without_bullets" style="padding-left:15px">
 		<li><a href='/python'>About Python</a></li>
 		<li><a href='/biology'>About biology</a></li>
 		<li><a href='/notes'>Notes</a></li>
 	</ul>
-</div style="width:1000px; margin: 0 auto;">
-<div style="width:1000px; margin: 0 auto;">
-	<h2>About me</h2>
+	</div>
+	<div style="float:left; width:67%; background:#eee; padding:20px; margin-bottom:15px;">
+		<h2>About me</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat neque eget feugiat ultrices. Etiam id feugiat neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec elementum imperdiet arcu, a rhoncus odio euismod non. Vivamus rhoncus blandit quam, ac iaculis arcu rhoncus ac. Nulla sodales luctus nibh, sit amet iaculis mauris bibendum ac. Cras consectetur tellus arcu, eget elementum ligula fermentum non. Integer pulvinar lacinia velit, et pulvinar quam. Nulla iaculis urna risus, ultrices semper odio molestie a. Integer dapibus dui at sodales consectetur. Proin pretium bibendum egestas. Donec ornare elit quis imperdiet egestas. Morbi eu nisi at massa pharetra consequat.
+		</p>
+
+		<p>Maecenas pretium lacus ac dolor sollicitudin, euismod malesuada erat tristique. Curabitur id enim ac sem porttitor mattis eget in felis. Etiam ac finibus tellus, commodo cursus leo. Quisque vel ultrices nisi, ut posuere enim. Donec faucibus molestie rutrum. Vestibulum iaculis at est porttitor pharetra. Nulla lorem justo, finibus non leo a, finibus aliquet est. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam feugiat massa sit amet ultrices lacinia.
+		</p>
+	</div>
+	<div style="float:right; min-width:10%; max-width:13%; word-wrap:break-word;">
+	<h4>User</h4>
+	<ul style='padding-left:10px' class="without_bullets">
+	<!--TODO: Додати сервер з користувачами-->
+		<li><a href="/user">qgelena</a></li>
+		<li><a href="/user">dmytrish</a></li>
+		<li><a href="/user">Dmytro_Sirenko</a></li>
+	</ul>
+	</div>
 </div>
-<div style="width:1000px; margin: 0 auto;">
-Users<br>
+<!--Таблиця з юзерами
+<div>
+	Users<br>
 	<table border="1" width="700">
 		<tr>
 			<th>User</th>
@@ -61,17 +92,24 @@ Users<br>
 			<td></td>
 		</tr>
 	</table>
-</div>
-<div style="width:1000px; margin: 0 auto;">
-	<p title="Click here"><img src='/static/fblogo.png' width="20" height="20"/><a href='https://www.facebook.com/qgelena' target="_blank">my facebook</a></p>
-	<p id='1' class='' title="Click here"><img src='/static/github.png' width="20 " height="20"/><a href="https://github.com/qgelena" target="_blank">my github</a></p>
-</div>
-<div style="width:1000px; margin: 0 auto;">
-	<address>
-	Ukraine, Kyiv<br>
-	tel: +380967899054<br>
-	email:<a href="mailto://qgelena@gmail.com" target="_blank"> qgelena@gmail.com</a><br>
-	</address>
+</div>-->
+<hr style="clear:both; margin-top:15px;">
+<div style="margin:1.5em; clear:both;">
+	<div style="float:left;">
+		<div title="Click here"><img src='/static/fblogo.png' width="20" height="20" style="margin-right:0.5em;" /><a href='https://www.facebook.com/qgelena' target="_blank">my facebook</a>
+		</div>
+		<div id='github_link' class='' title="Click here"><img src='/static/github.png' width="20" height="20" style="margin-right:0.5em;"/><a href="https://github.com/qgelena" target="_blank">my github</a>
+		</div>
+	</div>
+	<div style='float:right'>
+		<address>
+		Ukraine, Kyiv<br>
+		tel: +380967899054<br>
+		email:<a href="mailto://qgelena@gmail.com" target="_blank"> qgelena@gmail.com</a><br>
+		</address>
+	</div>
+	<div class="clearfix">
+	</div>
 </div>
 </body>
 </html>
