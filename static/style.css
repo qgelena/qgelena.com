@@ -1,3 +1,86 @@
 a {
 	text-decoration: none;
 }
+#title_header {
+  padding-left: 30px;
+}
+#sub_title {}
+.inline {
+  display:inline-block;
+}
+#menu {
+	padding: 0px 0px 25px 30px;
+  width: 70%; 
+}
+#menu a {
+  display: inline;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px 4px 0 0;
+}
+#menu a:hover {
+  background-color: orange;
+}
+#search {
+width: 25%;
+text-align: right;
+font-size: 
+}
+#icons img {
+  width:40px;
+  height:40px;
+  margin-right:0.5em;
+}
+#crazyscientist {
+ 	margin:10px;
+}
+.site-header {
+  border-top:5px solid #000000;
+  min-height:56px;
+  background:#009999; 
+} 
+body {
+	font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #111; /* колір шрифту*/
+  background-color: #d9f2e6; /*колір тла*/
+  margin: 0 auto;
+  min-width: 930px;
+}
+#text {
+	float:left; 
+	width:67%; 
+	margin-bottom:15px;
+}
+.page_content {
+	padding: 10px 20px;
+  margin: 20px 10px;
+}
+.site_footer {
+	border-top: 1px solid #000000;
+	padding: 30px 0;
+	clear:both;
+}	
+.footer-col-left {
+  	float: left;
+  	margin-bottom: 15px;
+  	padding-left: 15px; 
+}
+.footer-col-right {
+  	float: right;
+  	margin-bottom: 15px;
+  	padding-left: 15px;
+}
+/*.without_bullets {
+  list-style-type:none;
+}*/
+/*http://stackoverflow.com/questions/18482505/having-the-floating-children-elements-determine-parent-width*/
+/*.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}*/

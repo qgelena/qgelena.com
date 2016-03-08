@@ -1,6 +1,6 @@
 serve:
-	python -m SimpleHTTPServer  
+	php -S localhost:8000 
 page:
-	google-chrome http://localhost:8000
+	google-chrome http://localhost:8000 &
 
 
