@@ -6,17 +6,15 @@
 <link rel='stylesheet' href='/static/style.css'/>
 </head>
 <body>
-	<header>
-		<img src="/static/sysbio_logo.jpg"/>
-		<h1>biology</h1>
-		<nav id ="menu">
-			<a href='/'>home</a>
-			<a href='/python'>Python</a>
-			<a href='/biology'>biology</a>
-			<a href='/notes'>notes</a>
-			<a href='/other'>other</a>
-		</nav>
-	</header>
+<header class='site-header'>
+	<div id="title_header">
+		<h1 class="inline">biology</h1>
+		<img src="/static/DNA_logo.png" width="80" height="50" class="inline"/>
+	</div>
+<?php 
+include('../include/sub_header.php');
+?>
+</header>
 <div class="page_content">
 <!--emm-->
 <p>

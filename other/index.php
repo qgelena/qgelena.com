@@ -8,16 +8,12 @@
 <body>
 <header class='site-header'>
 	<h1 id="title_header">other</h1>
-	<nav id ="menu">
-		<a href='/'>home</a>
-		<a href='/python'>Python</a>
-		<a href='/biology'>biology</a>
-		<a href='/notes'>notes</a>
-		<a href='/other'>other</a>
-	</nav>
+<?php 
+include('../include/sub_header.php');
+?>
 </header>
 <div class="page_content">
-	<div>
+	<section id="text">
 		<p>
 			<b>Десять приемов, которые помогут улучшить презентацию PowerPoint</b><br/>
 			<i>Хелен Брэдли</i><br/>
@@ -181,7 +177,7 @@
 		<p>	
 			<em>PowerPoint 2010 позволяет организовать широковещательную трансляцию  презентации в  Интернете</em><br/>
 		</p>
-	</div>	
+	</section>	
 </div>	
 </body>
 </html>
