@@ -1,4 +1,4 @@
-	<div id="sub_title">
+	<div>
 		<nav id ="menu" class="inline">
 			<a href='/'>home</a>
 			<a href='/python'>Python</a>

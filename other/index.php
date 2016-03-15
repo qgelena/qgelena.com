@@ -4,12 +4,15 @@
 	<title>qgelena</title>
 	<meta charset="utf-8">
 	<link rel='stylesheet' href='/static/style.css'/>
+	<meta name='keywords' content='biology, Python, bioinfirmatics, testing, QA' charset='utf-8'/>
+	<meta name='description' content="">
+	<meta name='author' content="Alona Sychevska">
 </head>
 <body>
 <header class='site-header'>
 	<h1 id="title_header">other</h1>
 <?php 
-include('../include/sub_header.php');
+include('../include/header.php');
 ?>
 </header>
 <div class="page_content">
@@ -179,5 +182,8 @@ include('../include/sub_header.php');
 		</p>
 	</section>	
 </div>	
+<?php 
+include('../include/footer.php');
+?>
 </body>
 </html>

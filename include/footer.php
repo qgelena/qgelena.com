@@ -1,11 +1,11 @@
 <footer class='site_footer'>
-	<div id="icons" class="footer-col-left">
+	<div id="icons" class="footer-col-left" class="inline">
 		<a href="https://www.facebook.com/qgelena" target="_blank"><img src="/static/fblogo.png"/></a>
 		<a href="https://github.com/qgelena" target="_blank"><img src="/static/github.png"/></a>
 		<a href="http://vk.com/qgelena" target="_blank"><img src="/static/vk.com-logo.png"/></a>
 		<a href="skype://qgelena"><img src="/static/Skype_logo.png"/></a>
 	</div>
-	<div class="footer-col-right">
+	<div class="footer-col-right" class="inline">
 		<address>
 		Ukraine, Kyiv<br>
 		tel: +380967899054<br>
