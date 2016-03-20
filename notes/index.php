@@ -17,12 +17,16 @@ include('../include/header.php');
 ?>		
 </header>
 <div class="page_content">
-	<div id="text">	
+	<aside class="inline-tbl aside-size">
+	</aside>
+	<section id="text" class="inline-tbl">	
 		<form>
 		<textarea name='comment' cols='100' rows="10" placeholder='message'></textarea><br>
 			<input type='submit' name="submit" value="send">
 		</form>
-	</div>
+	</section>
+	<aside class="inline-tbl aside-size">
+	</aside>
 </div>
 <?php 
 include('../include/footer.php');

@@ -17,13 +17,17 @@ include('../include/header.php');
 ?>
 </header>
 <div class="page_content">
-	<div id="text">
+	<aside class="inline-tbl aside-size">
+	</aside>
+	<section id="text" class="inline-tbl">
 		<p>
-		Life is beautiful!<br> 
+		<h3>Life is beautiful!</h3>
 		From atoms to cells, from genes to proteins, from populations to ecosystems, biology is the study of the fascinating and intricate systems that make life possible.<br> 
 		Dive in to learn more about the many branches of biology and why they are exciting and important.
 		</p>
-	</div>	
+	</section>
+	<aside class="inline-tbl aside-size">
+	</aside>	
 </div>
 <?php 
 include('../include/footer.php');

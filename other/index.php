@@ -16,7 +16,9 @@ include('../include/header.php');
 ?>
 </header>
 <div class="page_content">
-	<section id="text">
+	<aside class="inline-tbl aside-size">
+	</aside>
+	<section id="text" class="inline-tbl"> 
 		<p>
 			<b>Десять приемов, которые помогут улучшить презентацию PowerPoint</b><br/>
 			<i>Хелен Брэдли</i><br/>
@@ -180,7 +182,9 @@ include('../include/header.php');
 		<p>	
 			<em>PowerPoint 2010 позволяет организовать широковещательную трансляцию  презентации в  Интернете</em><br/>
 		</p>
-	</section>	
+	</section>
+	<aside class="inline-tbl aside-size">
+	</aside>	
 </div>	
 <?php 
 include('../include/footer.php');

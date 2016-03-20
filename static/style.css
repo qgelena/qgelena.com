@@ -5,7 +5,10 @@ a {
   padding-left: 30px;
 }
 .inline {
-  display:inline-block;
+  display: inline-block;
+}
+.inline-tbl {
+  display: table-cell;
 }
 #menu {
 	padding: 0px 0px 25px 30px;
@@ -23,13 +26,13 @@ a {
 }
 #search {
 width: 25%;
-text-align: right;
-font-size: 
+text-align: right; 
 }
 #icons img {
   width:40px;
   height:40px;
   margin-right:0.5em;
+  vertical-align: text-top;
 }
 #crazyscientist {
  	margin:10px;
@@ -50,28 +53,31 @@ body {
 #text { 
 	width:50%;
   padding: 30px 30px;
-  min-height: calc(100vh - 80px);
 }
 #users {
-  background: #ebebe0;
+}
+.aside-size {
+  width: 20%;
 }
 .page_content {
   width:100%;
 	/*padding: 10px 20px;
   margin: 20px 10px;*/
+  min-height: calc(100vh - 70px);
+
 }
 .site_footer {
   background:#b3b3b3; 
 	border-top: 1px solid #000000;
 	padding: 20px 30px;
   margin: 0px;
-  height: 150px;
+  height: 70px;
 }	
 .footer-col-left {
-  margin-bottom: 15px;
+  display:table-cell;
 }
 .footer-col-right {
-  margin-bottom: 15px;
+  display: table-cell;
 }
 /*.without_bullets {
   list-style-type:none;
