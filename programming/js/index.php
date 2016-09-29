@@ -10,23 +10,23 @@
 <body>
 <header class='site-header'>
 	<div id="title_header">
-		<h1 class="inline">javascript</h1>
-		<img src="../../static/js.png" width="42" height="34" class="inline"/>
-	</div>
 <?php 
 include('../../include/header.php');
 ?>	
+	</div>
 </header>
 <div class="page_content">
-	<aside class="inline-tbl aside-size">
+	<aside class="inline-blk aside-size">
 	</aside>
-	<section id="text">
+	<section id="text" class="inline-blk">
+	<p>Майбутній js</p>
 	</section>
+<?php
+include('../../include/contacts.php');
+?>	
 </div>
-	<aside class="inline-tbl aside-size">
-	</aside>
 <?php 
-include('../include/footer.php');
+include('../../include/footer.php');
 ?>
 </body>
 </html>

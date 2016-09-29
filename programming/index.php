@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset='utf-8'/>
 	<title>qgelena</title>
 	<link rel='stylesheet' href='/static/style.css'/>
 	<meta name='keywords' content='biology, Python, bioinfirmatics, testing, QA' charset='utf-8'/>
@@ -10,24 +9,24 @@
 <body>
 <header class='site-header'>
 	<div id="title_header">
-		<h1 class="inline">programming</h1>
-		<img src="/static/code_logo.png" width="40" height="34" class="inline"/>
-	</div>
 <?php 
 include('../include/header.php');
 ?>	
+	</div>
 </header>
 <div class="page_content">
-	<aside class="inline-tbl aside-size">
+	<aside class="inline-blk aside-size">
+		<a target="_top" href="/programming/python/index.php">python</a>
+		<a target="_top" href="/programming/js/index.php">js</a>
 	</aside>
-	<section id="text" class="inline-tbl">
-		<ul>
-			<li><a href="/programming/python/index.php">Python</a></li>
-			<li><a href="/programming/js/index.php">js</a></li>
-		</ul>
-	</section>
-	<aside class="inline-tbl aside-size">
-	</aside>
+	<section id="text" class="inline-blk">
+		<p>
+		programming
+		</p>
+	</section>	
+<?php
+include('../include/contacts.php');
+?>
 </div>
 <?php 
 include('../include/footer.php');

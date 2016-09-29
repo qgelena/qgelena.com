@@ -15,7 +15,9 @@ include('../include/header.php');
 ?>
 </header>
 <div class="page_content">
-	<div id="text">
+	<aside class="inline-tbl aside-size">
+	</aside>
+	<section id="text">
 	<!--<div style="min-width:10%; max-width:13%; word-wrap:break-word;">-->
 	<ul style='padding-left:10px' class="without_bullets">
 	<!--TODO: Додати сервер з користувачами-->
@@ -23,7 +25,9 @@ include('../include/header.php');
 		<li><a href="/user">dmytrish</a></li>
 		<li><a href="/user">Dmytro_Sirenko</a></li>
 	</ul>
-	</div>
+	</section>
+	<aside class="inline-tbl aside-size">
+	</aside>
 </div>	
 <?php 
 include('../include/footer.php');
