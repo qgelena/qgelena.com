@@ -14,30 +14,30 @@ a {
 #menu_style {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0px 0px 0px 16px;
   overflow: hidden;
   background-color: #333333;
 }
-li a {
+#menu_style li a {
   display: block;
   color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
-li a:hover {
+#menu_style li a:hover {
   background-color: orange;
 }
-li {
+#menu_style li {
   float: left;
 }
 #search {
-width: 25%;
-text-align: right; 
+text-align: right;
+padding: 16px; 
 }
 #icons img {
-  width:40px;
-  height:40px;
+  width:35px;
+  height:35px;
   margin-right:0.5em;
   vertical-align: text-top;
 }
@@ -54,43 +54,30 @@ body {
   margin: 0 auto;
   min-width: 930px;
 }
-#aside_right {
-  background: white;
+.aside-size {
+  width: 20%;
+  padding: 0px 16px 0px 0px;
+}
+.aside-size ul {
+  margin: 0px;
 }
 #text { 
-	width:50%;
+	width: 65%;
   padding: 10px 30px;
   margin-bottom: 5px;
-}
-.aside-size {
-  width: 15%;
 }
 .page_content {
   width:100%;
 	/*padding: 10px 20px;
   margin: 20px 10px;*/
   min-height: calc(100vh - 70px);
-
 }
 .site_footer {
-	border-top: 1px solid #e6e6e6;
-	padding: 20px 30px;
   margin: 0px;
-  height: 70px;
-  color: #737373;
+  color: white;
 }	
 .footer-col {
-  display: table-cell;
+  background-color: #333333;
+  padding: 16px;
+  text-align: center;
 }
-/*.without_bullets {
-  list-style-type:none;
-}*/
-/*http://stackoverflow.com/questions/18482505/having-the-floating-children-elements-determine-parent-width*/
-/*.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}*/

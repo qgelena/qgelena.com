@@ -9,15 +9,11 @@
 	<script src="/static/script.js"></script>
 </head>
 <body onload="onpageload();"><!--тут js script-->
-<header class='site-header'>
-	<div id="title_header">
 <?php 
 include('include/header.php');
 ?>
-	</div>
-</header>
 <div class="page_content">
-	<aside id="aside_right" class="inline-blk aside-size">
+	<aside class="inline-blk aside-size">
 	</aside>
 	<section id="text" class="inline-blk">
 		<h2>About the project</h2>
@@ -27,9 +23,6 @@ include('include/header.php');
 		<p>Maecenas pretium lacus ac dolor sollicitudin, euismod malesuada erat tristique. Curabitur id enim ac sem porttitor mattis eget in felis. Etiam ac finibus tellus, commodo cursus leo. Quisque vel ultrices nisi, ut posuere enim. Donec faucibus molestie rutrum. Vestibulum iaculis at est porttitor pharetra. Nulla lorem justo, finibus non leo a, finibus aliquet est. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam feugiat massa sit amet ultrices lacinia.
 		</p>
 	</section>
-<?php
-include('include/contacts.php');
-?>
 </div>	
 <?php 
 include('include/footer.php');
