@@ -11,15 +11,16 @@
 include('../include/header.php');
 ?>
 <div class="page_content">
-	<aside class="inline-blk aside-size">
-	</aside>
+<?php
+include('../include/menu_biology.php') 
+?>
 	<section id="text" class="inline-blk">
 		<p>
-		<h3>Life is beautiful!</h3>
-		From atoms to cells, from genes to proteins, from populations to ecosystems, biology is the study of the fascinating and intricate systems that make life possible.<br> 
-		Dive in to learn more about the many branches of biology and why they are exciting and important.
+			<h3>Life is beautiful!</h3>
+			From atoms to cells, from genes to proteins, from populations to ecosystems, biology is the study of the fascinating and intricate systems that make life possible.<br> 
+			Dive in to learn more about the many branches of biology and why they are exciting and important.
 		</p>
-	</section>
+	</section>	
 </div>
 <?php 
 include('../include/footer.php');

@@ -27,6 +27,7 @@ a {
 }
 #menu_style li a:hover {
   background-color: orange;
+  color: black;
 }
 #menu_style li {
   float: left;

@@ -7,6 +7,7 @@
 				<li><a href="/programming">programming</a></li>
 				<li><a href="/biology">biology</a></li>
 				<li><a href="/bioinformatics">bioinformatics</a></li>
+				<li><a href="/others">others</a></li>
 				<li>	
 					<form id="search" class="inline-tbl">
 						<input type='text' name='search' placeholder=''>

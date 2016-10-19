@@ -18,6 +18,9 @@ include('../../include/menu_programming.php');
 	<section id="text" class="inline-blk">
 	<p>Майбутній js</p>
 	</section>
+<script type="text/javascript">
+	alert('I am javascript!')
+</script>	
 </div>
 <?php 
 include('../../include/footer.php');

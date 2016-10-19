@@ -18,7 +18,7 @@ include('../include/menu_programming.php');
 		<p>
 		programming
 		</p>
-	</section>	
+	</section>		
 </div>
 <?php 
 include('../include/footer.php');
