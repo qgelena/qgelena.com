@@ -1,6 +1,9 @@
 a {
 	text-decoration: none;
 }
+.hidden {
+  display: none;
+}
 #title_header {
   padding-left: 0px;
 }
@@ -32,9 +35,10 @@ a {
 #menu_style li {
   float: left;
 }
-#search {
-text-align: right;
-padding: 16px; 
+#search-form {
+text-align: right; 
+}
+#search-close {
 }
 #icons img {
   width:35px;
@@ -55,17 +59,20 @@ body {
   margin: 0 auto;
   min-width: 930px;
 }
+.text_code {
+  font:13.5px/1.4em monospace;
+}
 .aside-size {
-  width: 20%;
-  padding: 0px 16px 0px 0px;
+  width:20%;
+  padding:0px 16px 0px 0px;
 }
 .aside-size ul {
-  margin: 0px;
+  margin:0px;
 }
 #text { 
-	width: 65%;
-  padding: 10px 30px;
-  margin-bottom: 5px;
+	width:65%;
+  padding:10px 30px;
+  margin-bottom:5px;
 }
 .page_content {
   width:100%;

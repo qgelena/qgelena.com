@@ -8,13 +8,9 @@
 	<link rel='stylesheet' href='/static/style.css'/>
 </head>
 <body>
-<header class='site-header'>
-	<div id="title_header">
 <?php 
 include('../../include/header.php');
 ?>
-	</div>
-</header>
 <div class="page_content">
 <?php
 include('../../include/menu_biology.php')

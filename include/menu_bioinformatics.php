@@ -9,5 +9,8 @@
 			<li>
 				<a target="_top" href="/bioinformatics/tools/index.php">tools</a>
 			</li>
+			<li>
+				<a target="_top" href="/bioinformatics/Algorithms, Graphs/index.php">Algorithms, Graphs</a>
+			</li>
 		</ul>
 	</aside>
